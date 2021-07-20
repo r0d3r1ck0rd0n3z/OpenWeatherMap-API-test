@@ -1,0 +1,60 @@
+body {
+ font-family: sans-serif, 'open sans';
+}
+
+.content {
+ max-width: 400px;
+ margin: auto;
+}
+
+ul {
+ list-style-position: inside;
+ padding-left: 0;
+ vertical-align: middle;
+}
+
+li {
+ display: block;
+ list-style: none;
+ border: solid 1px #eee;
+ border-width: 1px 10px 1px 1px;
+ padding: 15px;
+ margin: 2px;
+}
+
+
+.icon {
+ float: left;
+ vertical-align: middle;
+ display: inline-block;
+ position: relative;
+ top: -10px;
+ padding-right: 5px;
+ filter: invert(100%);
+}
+
+.timeClass {
+ font-weight: bold;
+}
+
+.descClass {
+ font-size: smaller;
+}
+
+.smallText {
+  text-align: right;
+  display: block;
+  font-size: 9px;
+  font-style: italic;
+  color: #aaa;
+}
+
+.icon-01d, .icon-01n 	{ border-right-color: azure;}
+.icon-02d, .icon-02n 	{ border-right-color: gray;}
+.icon-03d, .icon-03n 	{ border-right-color: #5e778a;}
+.icon-04d, .icon-04n 	{ border-right-color: #5ec5cc;}
+.icon-09d, .icon-09n 	{ border-right-color: #319ca3;}
+.icon-10d, .icon-10n 	{ border-right-color: #0394fc;}
+.icon-11d, .icon-11n 	{ border-right-color: yellow;}
+.icon-13d, .icon-13n 	{ border-right-color: silver;}
+.icon-50d, .icon-50n 	{ border-right-color: silver;}
