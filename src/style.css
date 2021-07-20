@@ -39,6 +39,13 @@ li {
 
 .descClass {
  font-size: smaller;
+ font-size: x-small;
+ margin-top: 4px;
+ display: inline-block;
+}
+
+.tempClass {
+ font-size: smaller;
 }
 
 .smallText {
