@@ -26,7 +26,7 @@ fetch(url)
     li.className = "icon-" + icon;
     
     let imagDesc = createNode('img');
-    imagDesc.src = " http://openweathermap.org/img/wn/" + icon + ".png";
+    imagDesc.src = " http://openweathermap.org/img/wn/" + icon + "@2x.png";
     imagDesc.className = "icon " + icon;
     li.appendChild(imagDesc);  
       
