@@ -2,7 +2,7 @@ function createNode(element) {
     return document.createElement(element);
 }
 
-var url = "https://api.openweathermap.org/data/2.5/onecall?lat=25.048&lon=121.532&exclude=current,minutely,daily,alerts&units=metric&appid=d5db79c4f50f35061b1fd461a0363e15";
+var url = "https://api.openweathermap.org/data/2.5/onecall?lat=25.048&lon=121.532&exclude=current,minutely,daily,alerts&units=metric&appid=" + YOUR_API_KEY_HERE;
 
 fetch(url)
   .then((resp) => resp.json())
